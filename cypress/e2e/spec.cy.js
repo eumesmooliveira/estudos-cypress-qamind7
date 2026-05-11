@@ -1,0 +1,21 @@
+describe('Teste de login', () => {
+  it('Login com sucesso', () => {
+    cy.visit('https://front.serverest.dev/login')
+    cy.get('[data-testid="email"]').type('deoliveiratech@gmail.com')
+    cy.get('[data-testid="senha"]').type('12345')
+    cy.get('[data-testid="entrar"]').click()
+    cy.get('[data-testid="cadastrarProdutos"]').click()
+    cy.get('[data-testid="nome"]').type('Coca Cola')
+    cy.get('[data-testid="preco"]').type('5.00')
+    cy.get('[data-testid="descricao"]').type('Refrigerane gelado')
+    cy.get('[data-testid="quantity"]').type('100')
+    cy.get('h1').contains('Cadastro de Produtos')
+  })
+  it.only('Login com falha', () => {
+    cy.visit('https://front.serverest.dev/login')
+    cy.get('[data-testid="email"]').type('deoliveiratech@gmail.com')
+    cy.get('[data-testid="senha"]').type('123')
+    cy.get('[data-testid="entrar"]').click()
+    cy.get('.alert > :nth-child(2)').contains('Email e/ou senha inválidos')
+  })
+})
