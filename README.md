@@ -1,12 +1,12 @@
-# Cypress Web Automation
+# Cypress: Introdução e Configuração
 
-Projeto de automação de testes Web desenvolvido durante o Bootcamp QA Automation da QAzando.
+Projeto de estudo baseado na playlist do canal **QA Mind7** (Tairan), focada em automação de testes com Cypress.
 
 ## 🚀 Objetivo
-Automação de testes funcionais (E2E) utilizando **Cypress** e **JavaScript** para validar fluxos de login, cadastro e navegação em aplicações web, garantindo a qualidade da interface e experiência do usuário.
+Exploração e configuração completa de um projeto de automação de testes do zero utilizando **Cypress** e **JavaScript**. O foco é compreender as funcionalidades nativas da ferramenta, como *Time Traveling* e suporte a múltiplos navegadores, para a criação de testes E2E (ponta a ponta).
 
 ## 🛠️ Tecnologias utilizadas
-* **Cypress** (Framework de automação E2E)
+* **Cypress** (Framework de automação open source)
 * **JavaScript**
 * **VS Code**
 * **Git/GitHub** (Versionamento)
@@ -21,4 +21,4 @@ Automação de testes funcionais (E2E) utilizando **Cypress** e **JavaScript** p
    `npx cypress open`
 
 ---
-*Projeto versionado com sucesso.*
+*Projeto versionado com base nos estudos do canal QA Mind7.*
