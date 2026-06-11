@@ -1,24 +1,27 @@
-# Cypress: Introdução e Configuração
+# Cypress: Estrutura Avançada e CI/CD
 
-Projeto de estudo baseado na playlist do canal **QA Mind7** (Tairan), focada em automação de testes com Cypress.
+Projeto de automação de testes E2E estruturado a partir dos estudos do canal QA Mind7 (Tairan). O grande diferencial deste projeto é o foco na **arquitetura da automação**, configurando o Cypress para rodar em diferentes ambientes e integrado em esteiras de CI/CD.
 
-## 🚀 Objetivo
-Exploração e configuração completa de um projeto de automação de testes do zero utilizando **Cypress** e **JavaScript**. O foco é compreender as funcionalidades nativas da ferramenta, como *Time Traveling* e suporte a múltiplos navegadores, para a criação de testes E2E (ponta a ponta).
+## 🎯 Destaques do Projeto
 
-## 🛠️ Tecnologias utilizadas
-* **Cypress** (Framework de automação open source)
-* **JavaScript**
-* **VS Code**
-* **Git/GitHub** (Versionamento)
+* **Múltiplos Ambientes:** Configuração separada para rodar testes apontando para ambientes distintos (ex: `config-dev.js` e `config-qa.js`).
+* **Integração Contínua (CI/CD):** Pipelines configurados para execução automatizada utilizando **GitHub Actions** (`.github/workflows`) e **GitLab CI** (`.gitlab-ci.yml`).
+* **Funcionalidades Nativas:** Exploração de recursos como *Time Traveling* e suporte a múltiplos navegadores.
 
-## ⚙️ Como rodar o projeto
+## ⚙️ Tecnologias Utilizadas
 
-1. Clone este repositório: 
-   `git clone https://github.com/eumesmooliveira/cypress.git`
-2. Instale as dependências: 
-   `npm install`
-3. Abra o Cypress: 
-   `npx cypress open`
+* Cypress
+* JavaScript
+* GitHub Actions & GitLab CI (Pipelines)
+* Git/GitHub (Versionamento)
 
----
-*Projeto versionado com base nos estudos do canal QA Mind7.*
+## 🚀 Como rodar o projeto
+
+### Pré-requisitos
+É necessário ter o [Node.js](https://nodejs.org/) instalado.
+
+### Instalação
+
+1. Clone este repositório (link corrigido):
+```bash
+git clone [https://github.com/eumesmooliveira/estudos-cypress-qamind7.git](https://github.com/eumesmooliveira/estudos-cypress-qamind7.git)
